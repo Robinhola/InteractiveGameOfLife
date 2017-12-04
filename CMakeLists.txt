@@ -8,6 +8,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
 set(SOURCE_FILES
     src/main.cpp
     src/m_gameoflife_window.cpp
+    src/m_gameoflife_engine.cpp
     )
 
 set(RESOURCE_FILES font/arial.ttf)
